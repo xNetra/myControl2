@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">My Control</string>
+    <string name="subtitle">Schedule Wi-Fi &amp; Mobile Data on/off</string>
+
+    <string name="section_schedule">Daily schedule</string>
+    <string name="off_time_label">Turn OFF at</string>
+    <string name="off_time_hint">When to disable each day</string>
+    <string name="on_time_label">Turn ON at</string>
+    <string name="on_time_hint">When to re-enable each day</string>
+
+    <string name="section_targets">What to toggle</string>
+    <string name="toggle_wifi">Wi-Fi</string>
+    <string name="toggle_data">Mobile data</string>
+
+    <string name="section_mode">Mode</string>
+    <string name="accessibility_mode">Auto-tap mode (Accessibility)</string>
+    <string name="accessibility_explanation">When enabled, the app opens Quick Settings and taps the toggles automatically. When disabled, the app just opens the settings panel for you to tap.</string>
+    <string name="accessibility_on">Accessibility service: enabled</string>
+    <string name="accessibility_off">Accessibility service: not enabled</string>
+    <string name="open_accessibility_settings">Open Accessibility settings</string>
+    <string name="request_exact_alarm">Allow exact alarms</string>
+    <string name="accessibility_service_label">My Control auto-toggle</string>
+    <string name="accessibility_service_description">Lets My Control automatically tap Wi-Fi and Mobile Data toggles at scheduled times.</string>
+
+    <string name="enable_schedule">Enable schedule</string>
+    <string name="disabled_status">Disabled</string>
+    <string name="save_button">Save schedule</string>
+
+    <string name="toast_saved">Schedule saved.</string>
+    <string name="toast_enable_first">Turn on \"Enable schedule\" first.</string>
+    <string name="toast_enable_accessibility">In the next screen, find \"My Control auto-toggle\" and turn it on.</string>
+</resources>
