@@ -38,4 +38,15 @@ jobs:
         run: ./gradlew :app:assembleDebug --stacktrace --no-daemon
 
       - name: Upload APK
-        uses: actions/up
+        uses: actions/upload-artifact@v4
+        with:
+          name: MyControl-debug-apk
+          path: app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
+
+      - name: Upload generated wrapper jar
+        uses: actions/upload-artifact@v4
+        with:
+          name: gradle-wrapper-jar
+          path: gradle/wrapper/gradle-wrapper.jar
+          if-no-files-found: warn
